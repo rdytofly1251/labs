@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 	DIR *in;
 	if (argc<4)
 		{
-			perror("Not enought arguments\n");
+			perror("Not enought arguments!\n");
 			exit(0);
 		}
 	printf("%s\n",argv[0]);
